@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 50px;
+  width: 100%;
+  height: 80px;
+  background-color: #51a5ff;
+}
+
+section p {
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+.formArea {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.umaName {
+  width: 260px;
+  height: 32px;
+  padding: 3px;
+  border: 1.5px solid #ee9366;
+
+}
+
+.umaButton {
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid #ee9366;
+  background-color: #fff;
+  color: #51a5ff;
+  font-size: 2rem;
+
+}
+
+.App {
+ height: 100vh;
+  background-color: #F5D24E;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.IncompleteArea {
+  color: #51a5ff;
+  background-color: #ffff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 1.5px solid #ee9366;
+  width: 300px;
+  margin-top: 2rem;
+}
+
+.CompleteArea {
+  color: #51a5ff;
+
+  background-color: #ffff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: #ee9366;
+  width: 300px;
+  margin-top: 1.5rem;
+}
+
+.title {
+  text-align: left;
+  font-weight: bold;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+ padding: 0.3rem 0.5rem;
+  height: 2rem;
+  margin: auto 0;
+  margin-left: 0.8rem;
+} 
+
+p {
+  width: 180px;
+}
+
+button {
+  background-color: #51a5ff;
+  color: #fff;
+  border: none;
+}
